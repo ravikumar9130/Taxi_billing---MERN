@@ -1,0 +1,173 @@
+
+
+:root {
+  /* Colors */
+  --black: #09090c;
+  --grey: #a4b2bc;
+  --white: #fff;
+  --background: rgba(137, 171, 245, 0.37);
+}
+
+/* html {
+  overflow: hidden;
+} */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+  font-family: "Poppins", sans-serif;
+}
+  body {
+    background: rgba(255, 255, 255, 0.918);
+    min-height: 100%;
+    display: flex;
+    font-weight: 400;
+    
+  }
+  
+  h1,h2,h3,h4,h5,h6,label,span {
+    font-weight: 500;
+   
+  }
+  
+  body, html, .App, #root, .auth-wrapper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .navbar-light {
+    background-color: #ffffff;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  }
+  
+  .auth-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .auth-inner {
+    width: 450px;
+    margin: auto;
+    background: #ffffff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    padding: 40px 55px 45px 55px;
+    border-radius: 10px;
+    transition: all .3s;
+  }
+  .taxi-inner {
+   
+    margin: auto;
+    background: #ffffff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    padding: 15px 30px 30px 30px ;
+    border-radius: 0.3rem!important;
+   
+    transition: all .3s;
+  }
+  .result-inner {
+   
+    margin: auto;
+    border:2px rgb(255, 218, 10) solid;
+   
+    padding: 30px auto ;
+    border-radius: 15px;
+    transition: all .3s;
+  }
+  
+  .auth-wrapper .form-control:focus {
+    border-color: #000;
+    box-shadow: none;
+  }
+  
+  .auth-wrapper h3 ,h4{
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+    padding-bottom: 20px;
+  }
+  
+  .custom-control-label {
+    font-weight: 400;
+  }
+  
+  
+
+#ads {
+  margin: 30px 0 30px 0;
+ 
+}
+
+
+
+
+
+
+
+
+ 
+
+#ads .card:hover {
+          background: #fff;
+          box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+          border-radius: 4px;
+          transition: all 0.3s ease;
+      }
+
+#ads .card-image-overlay {
+      font-size: 20px;
+      
+  }
+
+
+#ads .card-image-overlay span {
+          display: inline-block;              
+      }
+
+
+#ads .ad-btn {
+      text-transform: uppercase;
+      width: 150px;
+      height: 40px;
+      border-radius: 80px;
+      font-size: 14px;
+      line-height: 35px;
+      text-align: center;
+      border: 3px solid #e6de08;
+      display: block;
+      text-decoration: none;
+      margin: 20px auto 1px auto;
+      color: #000;
+      overflow: hidden;        
+      position: relative;
+      background-color: #e6de08;
+  }
+
+#ads .ad-btn:hover {
+          background-color: #e6de08;
+          color: #1e1717;
+          border: 2px solid #e6de08;
+          background: transparent;
+          transition: all 0.3s ease;
+          box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+      }
+
+#ads .ad-title h5 {
+      text-transform: uppercase;
+      font-size: 18px;
+  }
+ 
+  .z{
+    z-index: -1;
+  }
+  .cars{
+    cursor: pointer;
+  }
